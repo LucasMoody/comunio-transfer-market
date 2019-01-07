@@ -1,0 +1,30 @@
+{
+  "name": "comunio-transfermarket",
+  "version": "0.0.1",
+  "description": "Lambda service for getting the transfer market of a comunio community",
+  "main": "handler.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-things": "^0.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "moment": "^2.18.1",
+    "q": "^1.5.0",
+    "request": "^2.83.0",
+    "soap": "^0.21.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-things": "^0.2.0",
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "test": "mocha comunio/test"
+  },
+  "keywords": [
+    "comunio"
+  ],
+  "author": "",
+  "license": "MIT"
+}
